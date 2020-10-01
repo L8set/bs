@@ -1,4 +1,4 @@
-単語テーブル(`words`)
+語句テーブル(`words`)
 
 # カラム  
 |物理名|論理名|型|NULL|KEY|DEFAULT|EXTRA|
@@ -8,4 +8,3 @@
 |kana|読み仮名|VARCHAR(300)|NO|-|-|-|
 |type|品詞|INT(1)|NO|MULTIPLE KEY|-|-|
 |cre_date|作成日|TIMESTAMP|NO|-|CURRENT_TIMESTAMP|-|
-|upd_date|更新日|TIMESTAMP|NO|-|CURRENT_TIMESTAMP|ON UPDATE CURRENT_TIMESTAMP|
