@@ -8,7 +8,8 @@ import {
 } from 'react-router-dom';
 import { BrainStormCanvas } from './features/brainstorm/BrainStormCanvas';
 
-function App() {
+/** アプリケーションコンポーネント */
+export const App: React.FC = () => {
   return (
     <BrainStormCanvas/>
   );
